@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tahoma", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 0 50px;
+  margin: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("image/main8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  color: #fff;
+}
+
+.container .navbar {
+  width: 100%;
+  padding: 30px 0;
+  font-family: "Tahoma", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  color: #5f1782;
+  font-size: 35px;
+  font-weight: 800;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  display: block;
+  color: #5f1782;
+  font-size: 18px;
+  font-weight: 800;
+  margin-left: 25px;
+  transition: color 0.5s ease;
+}
+.navbar .menu li a:hover {
+  color: #fff;
+}
+.showcase-content {
+  max-width: 700px;
+  margin-top: 70px;
+  margin-left: 55%;
+}
+.showcase-content .lead-1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.showcase-content .lead-2 {
+  font-size: 35px;
+  font-weight: 200;
+  margin-left: -5px;
+}
+.showcase-content a {
+  display: inline-block;
+  background: #5f1782;
+  color: #fff;
+  font-size: 25px;
+  padding: 5px 40px;
+  margin-top: 15px;
+  border: 3px solid #5f1782;
+  border-radius: 5px;
+}
+.showcase-content a:hover {
+  color: #fff;
+  font-weight: bold;
+  background: transparent;
+}
+
+.cont {
+  background-color: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  margin-top: 0px;
+}
+.container-1 {
+  width: 100%;
+  height: 100vh;
+  padding: 0 20px;
+  margin: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("image/main4.jpg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+  color: black;
+}
+.choose-design {
+  max-width: 500px;
+  padding-top: 60px;
+  margin-left: 5%;
+}
+.choose-design .lead-1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.choose-design .lead-2 {
+  font-size: 35px;
+  font-weight: 200;
+  margin-right: -5px;
+}
+
+.footer {
+  height: 50px;
+  background-color: lightslategray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+.footer a {
+  color: white;
+}
