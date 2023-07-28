@@ -1,0 +1,178 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  text-align: start;
+  color: #4567b1;
+  background-color: #ffffff;
+}
+
+/* Navigation ----------------- */
+.maintop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  padding-left: 60px;
+  background-color: #617bb5;
+}
+nav {
+  width: 40%;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-evenly;
+}
+a.link {
+  margin-top: 5px;
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  background-color: #f6f6f6;
+}
+.describe {
+  width: 47%;
+}
+h1.one {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+p {
+  text-align: justify;
+}
+.img {
+  width: 47%;
+  height: 400px;
+  background-image: url("image/portfolio1.jpg");
+  border-radius: 16px;
+}
+.main {
+  width: 160px;
+  background-color: #9794d1;
+  padding: 5px;
+  border: none;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.main a {
+  text-decoration: none;
+  color: white;
+}
+.main:hover {
+  box-shadow: 4px 4px 8px #4b556b;
+}
+.subhead {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*------------Sub Content-------------- */
+.subcontent {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+div.box {
+  border-radius: 16px;
+  width: 300px;
+  padding: 10px;
+  color: #4b556b;
+  background-color: #f6f6f6;
+  box-shadow: 2px 2px 5px #4b556b;
+}
+div.box:hover {
+  box-shadow: 5px 5px 10px #4b556b;
+}
+.card1 {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(image/portfolio.png);
+  background-size: 123%;
+  background-position: 40%;
+  border-radius: 8px;
+}
+.card2 {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(image/portfolio2.png);
+  background-size: 100%;
+  border-radius: 8px;
+}
+.card3 {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(image/portfolio3.jpg);
+  background-size: 130%;
+  background-position: 50%;
+  border-radius: 8px;
+}
+button {
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 20px;
+  padding-left: 5px;
+  border: none;
+  border-radius: 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #7670fe;
+}
+button:hover {
+  box-shadow: 4px 4px 8px #4b556b;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-block,
+.right-block {
+  width: 45%; /* Adjust the width as needed */
+}
+
+.t-6 {
+  width: 80%;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px;
+  padding-left: 5px;
+  border: none;
+  border-radius: 32px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: #8481bb;
+  background-size: 50%;
+  color: white;
+}
+
+/* -------Footer-------- */
+.footer {
+  padding: 20px;
+  background-color: #4b556b;
+  height: 50%;
+}
+.footer a {
+  color: #f6f6f6;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 17px;
+}
